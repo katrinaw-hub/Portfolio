@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <!-- Gradient fill for the hexagon -->
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7f7fff"/>
+      <stop offset="1" stop-color="#4b4bf0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon shape -->
+  <polygon 
+    points="32,2 60,16 60,48 32,62 4,48 4,16" 
+    fill="url(#g)" 
+    stroke="#4b4bf0" 
+    stroke-width="2"
+  />
+
+  <!-- Initials (edit 'KW' to yours) -->
+  <text 
+    x="50%" 
+    y="55%" 
+    text-anchor="middle" 
+    font-size="20" 
+    font-family="system-ui, Arial, sans-serif" 
+    fill="#ffffff"
+    dy=".1em"
+  >
+    KW
+  </text>
+</svg>

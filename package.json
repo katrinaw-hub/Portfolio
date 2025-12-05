@@ -1,0 +1,13 @@
+{
+  "scripts": {
+  "start": "npm-run-all --parallel start:client start:server",
+  "start:client": "npm --prefix client run dev",
+  "start:server": "npm --prefix server run dev",
+  "test": "npm --prefix client run test",
+  "e2e": "cypress open"
+},
+
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}
