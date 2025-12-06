@@ -145,15 +145,6 @@ const Home = () => {
           value, not noise.
         </Typography>
 
-        <Typography variant="h6" sx={{ mb: 1 }}>
-          Mission Statement
-        </Typography>
-        <Typography sx={{ mb: 3 }}>
-          To build accessible, secure, and scalable web apps that turn real-world
-          problems into simple user experiences, infusing AI responsibly to add
-          value, not noise.
-        </Typography>
-
         {/* CI/CD demo paragraph – added to prove automatic deployment */}
         <Typography sx={{ mb: 3 }}>
           This paragraph was added as part of my CI/CD demonstration: once this
