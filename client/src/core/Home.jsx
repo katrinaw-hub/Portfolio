@@ -158,7 +158,7 @@ const Home = () => {
         <Typography sx={{ mb: 3 }}>
           This paragraph was added as part of my CI/CD demonstration: once this
           change is merged into the main GitHub branch, the pipeline rebuilds
-          and redeploys the portfolio app automatically.
+          and redeploys the portfolio app!
         </Typography>
 
         <Button variant="contained" onClick={() => navigate("/about")}>
