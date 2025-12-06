@@ -55,10 +55,6 @@ const About = () => (
           This portfolio showcases a few sample projects that span frontend UI,
           backend APIs, and full-stack MERN applications.
         </Typography>
-                <Typography sx={{ mb: 3 }}>
-          I’m currently exploring cloud deployment, automated testing, and
-          CI/CD so I can ship changes confidently and quickly.
-        </Typography>
         <Button
           component={Link}
           href={resumePdf}
