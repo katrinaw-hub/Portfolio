@@ -32,7 +32,7 @@ app.use("/", credentialRoutes);
 app.use("/", contactRoutes);
 
 // --- serve the built React app ---
-const clientDistPath = path.join(__dirname, "../Client/dist"); // use "../client/dist" if folder is lowercase
+const clientDistPath = path.join(__dirname, "../client/dist"); // use "../client/dist" if folder is lowercase
 
 app.use(express.static(clientDistPath));
 
