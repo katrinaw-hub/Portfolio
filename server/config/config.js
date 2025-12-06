@@ -15,7 +15,7 @@ const config = {
   // MongoDB connection string
   mongoUri:
     process.env.MONGODB_URI ||
-    "mongodb://127.0.0.1:27017/Portfolio",
+    "mongodb+srv://hswng2_db_user:<Abcd1234!>@cluster0.belbt2l.mongodb.net/?appName=Cluster0",
 };
 
 export default config;
